@@ -8,11 +8,13 @@
 
     <Button
         android:id="@+id/sendSOS"
-        android:layout_width="150dp"
-        android:layout_height="64dp"
+        android:layout_width="296dp"
+        android:layout_height="165dp"
         android:text="S.O.S"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="362dp" />
+        android:textSize="50sp"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
